@@ -47,12 +47,10 @@ setup(
         "sifter.comparators",
         "sifter.extensions",
         "sifter.grammar",
-        "sifter.t",
         "sifter.tests",
         "sifter.validators",
     ],
     package_data={
-        "sifter": ['py.typed'],
-        "sifter.t": ["*.in", "*.out", "*.msg", "*.rules"],
+        "sifter": ['py.typed']
     },
 )
